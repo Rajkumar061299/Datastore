@@ -1,0 +1,8 @@
+indexes:
+
+- kind: UserDetails
+  properties:
+  - name: FirstName
+  - name: Age
+    direction: desc
+    

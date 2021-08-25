@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="text-align:center	">
+	<h1>
+		<b>Registration Form</b>
+	</h1>
+	<form action="RegisterServlet" method="post">
+
+		<hr>
+		
+		<label><b> FirstName </b></label> <input type="text" name="firstname"
+			placeholder="Firstname" size="15" required /><br> <label> <b>LastName:
+		</b></label> <input type="text" name="lastname" placeholder="lastname" size="15"
+			required /> <br><label for="email"><b>Email</b></label> <input
+			type="text" placeholder="Enter Email" name="email" required><br>
+		<label for="psw"><b>Password</b></label> <input type="password"
+			placeholder="Enter Password" name="psw" required><br> <label>
+			<b>Enter an Age</b><input type="number" placeholder="Enter an age" name="age" required><br>
+		</label> <b>Gender : </b>
+		<input type="radio" id="Male" name="gender" value="Male">
+  <label for="Male">Male</label>
+  <input type="radio" id="Female" name="gender" value="Female">
+  <label for="Female">Female</label><br>
+ <input type = "submit" value = "register">
+		<br>Already have an
+		account? <a href="login.html">Sign in</a>.
+
+	</form>
+
+</body>
+</html>
